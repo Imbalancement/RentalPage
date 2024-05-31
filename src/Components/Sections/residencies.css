@@ -1,0 +1,20 @@
+.property {
+  text-align:center;
+    
+}
+
+.propertypicture>img{
+    width: 25rem;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.flexCenter {
+  display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+

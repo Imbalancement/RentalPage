@@ -1,0 +1,119 @@
+#about {
+    background-color: var(--orange-color);
+    
+}
+
+:root {
+    --primary: #1f3e72;
+    --secondary: rgba(255, 255, 255, 0.78);
+    --black: #131110;
+    --blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+    --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+    --blue: #4066ff;
+    --lightBlue: #eeeeff;
+    --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+}
+.paddings {
+    padding: 1.5rem;
+  }
+  
+  .innerWidth {
+    width: 100%;
+    
+  }
+  
+  .flexColStart {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+  .flexCenter {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .v-container .image-container{
+      border: 8px solid rgb(232 232 232 / 93% )
+  }
+  
+  .v-container>div {
+      flex: 1;
+  }
+
+  .v-right{
+    align-items: center;
+    
+  }
+  
+  .v-left>img{
+    width: 500px;
+    height: 500px;
+    margin-top: 0px;
+    border-radius: 15px;
+  }
+  .primaryText {
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .secondaryText {
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+  }
+  .orangeText {
+    color: orange;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+
+  .accordion{
+    margin-top: -40px;
+    border: none;
+  }
+
+  .accordionItem{
+    background: white;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .accordionItem.expanded{
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+  }
+
+  .accordionButton{
+       background: white;
+       padding: 1rem;
+       width: 100%;
+       justify-content: space-between;
+       cursor: pointer;
+
+  }
+
+  .icon{
+    padding: 1px;
+    background: #eeeeff;
+    border-radius: 5px;
+  }
+
+  .icon svg{
+    fill: var(--blue)
+  }
+
+  .accordionButton .primaryText{
+    font-size: 2rem;
+  }
+
+  .accordion
+  .v-right{
+      gap: 0.5rem;
+  }
